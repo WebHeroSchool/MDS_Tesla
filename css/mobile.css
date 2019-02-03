@@ -1,0 +1,151 @@
+
+@media (max-width: 1200px) {
+
+
+	.page__top__title {
+		font-size: 80px;
+	}
+
+	.page__top__subtitle {
+		font-size: 14px;
+		margin-bottom: 85px;
+
+	}
+
+
+	.header__side__link,
+	.header__side__login {
+		display: none;
+	}
+
+}
+
+@media (max-width: 1055px) {
+
+
+
+	.header__menu {
+		display: none;
+	}
+}
+
+
+@media (max-width: 995px) {
+
+	.page__top__title {
+		font-size: 70px;
+	}
+
+	.page__top__subtitle {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 879px) {
+
+
+	
+
+
+}
+
+
+}
+
+@media (max-width: 797px) {
+
+
+}
+
+@media (max-width: 717px) {
+
+
+}
+
+@media (max-width: 637px) {
+
+
+	.page__top__title {
+		font-size: 60px;
+	}
+
+	.page__top__subtitle {
+		font-size: 11px;
+		margin-bottom: 115px;
+	}
+
+	.test-drive {
+		margin-top: 30px;
+	}
+
+	.header__indicators {
+		justify-content: center;
+		width: 100%;
+	}
+
+
+	.indicators__pwr-reserve {
+		margin-right: 0;
+	}
+
+	.test-drive {
+		margin-top: 30px;
+	}
+
+	.advantage__bg-image {
+		height: 338px;
+	}
+
+}
+
+}
+
+@media (max-width: 537px) {
+
+
+
+}
+
+@media (max-width: 437px) {
+
+
+}
+
+
+
+@media (max-width: 375px) {
+
+	.header {
+		margin: 0;
+		margin-bottom: 26px;
+		padding-left: 2px;
+		padding-right: 21px;
+		box-sizing: border-box;
+		min-width: 100%;
+	}
+
+
+	.page__top__title {
+		font-size: 50px;
+	}
+
+	.page__top__subtitle {
+		font-family: "Montserrat";
+		font-size: 10px;		
+		margin-top: -3px;
+		margin-bottom: 49px;
+	}
+
+
+
+@media (max-width: 374px) {
+
+
+} 
+
+
+@media (max-width: 320px) {
+		
+
+	
+}
