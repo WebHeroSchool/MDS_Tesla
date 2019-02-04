@@ -44,6 +44,7 @@ body {
 	color: #000000;
 }
 
+
 .page__top {
 	display: flex;
 	align-items: flex-start;
@@ -213,10 +214,19 @@ body {
 	padding-left: 7px;
 }
 
-.vector {	
+
+
+.vector {	/*
 	display: flex;
 	justify-content: center;
 	margin-bottom: 86px;
+*/
+	
+	 z-index: 101;
+	position: fixed;
+	top: calc(100vh-10px);
+	right: calc(100vw/2); 
+
 }
 
 
