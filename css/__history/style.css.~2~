@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-	display:flex;
+	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
@@ -215,22 +215,16 @@ body {
 }
 
 
-.anchor {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 20px;
-}
 
-/*
 .vector {	
 	
 	z-index: 101;
 	position: fixed;
-	top: calc(100vh-10px); 
+/*	top: calc(100vh-10px); */
 	right: calc(100vw/2); 
 
 }
-*/
+
 
 /* бургер надо переделать */
 .header__side__burger {
