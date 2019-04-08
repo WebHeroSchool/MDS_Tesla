@@ -97,9 +97,15 @@
 	}
 
 	.header__mini-logo {
-		background: url(../img/Tesla-Wordmark-Red.png) no-repeat;
 		width: 138px;
 		height: 42px;
+		background: url(../img/Tesla-Wordmark-Red-m.png) no-repeat;
+/*
+		background-size: contain;
+		left: 2px;
+		top: 75px;
+*/
+
 	}
 	
 	.nav-menu,
