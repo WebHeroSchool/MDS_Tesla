@@ -39,14 +39,16 @@
 }
 
 @media (max-width: 814px) {
+		
 		.header__indicators {
 		justify-content: center;
-		/*width: 100%;
-		padding-left: 0;*/
+		width: 100%;
+		padding-left: 50px;
+		padding-right: 50px;
 	}
-	/*.indicators__pwr-reserve {
+	.indicators__pwr-reserve {
 		margin-right: 0;
-	}*/
+	}
 
 
 
@@ -160,6 +162,8 @@
 		justify-content: center;
 		width: 100%;
 		padding-left: 0;
+		padding-right: 0;
+
 	}
 
 
