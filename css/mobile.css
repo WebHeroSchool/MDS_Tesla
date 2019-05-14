@@ -12,9 +12,13 @@
 
 	}
 
-	.header__side__link,
-	.header__side__login {
+	.side-menu__item
+	{
 		display: none;
+	}
+	.side-menu__burger 
+	{
+		display: block;
 	}
 
 	.content_right-header {
@@ -25,7 +29,7 @@
 
 @media (max-width: 1055px) {
 
-	.header__menu {
+	.menu {
 		display: none;
 	}
 
@@ -417,7 +421,7 @@
 		min-width: 100%;
 	}
 
-	.header__mini-logo {
+	.header__logo {
 		width: 138px;
 		height: 42px;
 		background: url(../img/Tesla-Wordmark-Red-m.png) no-repeat;
