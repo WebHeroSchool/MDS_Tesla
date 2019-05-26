@@ -2,11 +2,11 @@
 @media (max-width: 1200px) {
 
 
-	.page__top__title {
+	.intro__title {
 		font-size: 80px;
 	}
 
-	.page__top__subtitle {
+	.intro__subtitle {
 		font-size: 14px;
 		margin-bottom: 85px;
 
@@ -56,11 +56,11 @@
 
 @media (max-width: 995px) {
 
-	.page__top__title {
+	.intro__title {
 		font-size: 70px;
 	}
 
-	.page__top__subtitle {
+	.intro__subtitle {
 		font-size: 12px;
 	}
 
@@ -370,11 +370,11 @@
 	.select__info_second{
 		display: none;
 	}
-	.page__top__title {
+	.intro__title {
 		font-size: 60px;
 	}
 
-	.page__top__subtitle {
+	.intro__subtitle {
 		font-size: 11px;
 		margin-bottom: 115px;
 	}
