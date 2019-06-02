@@ -308,8 +308,8 @@ body {
 }
 
 .future__info__top{
-	width: 316px;
-    height: 37px;
+	/*width: 316px;*/
+    /*height: 37px;*/
     margin-bottom: 11px;
     margin: 0;
     font-weight: 600;
@@ -321,11 +321,12 @@ body {
 }
 
 .future__info__text{
-	width: 316px;
-    height: 206px;
+/*	width: 316px;*/
+  /*  height: 206px;*/
     margin-bottom: 54px;
     font-weight: 500;
     font-size: 15px;
+    margin-top: 30px;
 }
 
 .future__info__screen-icon{
@@ -628,8 +629,10 @@ body {
 .content__title {
 	font-weight: 600;
     font-size: 30px;
-    margin: 50px 0 10px 36px;
+    margin: 50px 10px 10px 36px;
     line-height: normal;
+    text-align: center;
+
 }
 .content__text{
     font-weight: 500;

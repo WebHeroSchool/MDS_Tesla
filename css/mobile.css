@@ -95,7 +95,7 @@
 	}
 
 	.indicators__speed-icon {
-		background: url(../img/speed-m.png) no-repeat;
+		
 		width: 38.14px;
 		height: 28.7px;
 	}
@@ -128,7 +128,7 @@
 	}
 
 	.indicators__road-icon {
-		background: url(../img/road-m.png) no-repeat;
+
 		width: 25.29px;
 		height: 41px;
 	}
@@ -164,9 +164,6 @@
 		color: #E51937;
 	}
 
-	.test-drive__wheel-icon {
-		background: url(../img/steering-wheel-red.png) no-repeat;
-	}
 
 	.btn {
 		background: #E51937;
@@ -227,7 +224,7 @@
 }
 
 .content__title {
-	margin: 30px 0 10px 32px;
+	margin: 30px 32px 10px 32px;
 }
 
 .content__text {
@@ -294,7 +291,7 @@
 
 .future__info__top{
 	width: 316px;
-	height: 37px;
+/*	height: 37px;*/
 	left: calc(50% - 316px/2 - 192px);
 	top: 1616.38px;
 	font-weight: 600;
@@ -356,6 +353,7 @@
 	}
 	.future__info__text{
 		width: auto;
+		height: auto;
 		margin-bottom: 0;
 	}
 	.future__info__top{
@@ -411,6 +409,10 @@
 
 @media (max-width: 475px) {
 
+	.content_right-header {
+		font-size: 75px;
+	}
+
 	.header {
 		display:flex;
 		margin: 0;
@@ -451,7 +453,7 @@
 	}
 
 	.presentation__bg-logo {
-		background: url(../img/tesla-car-m.png) 50% 50% no-repeat;
+		
 		background-size: contain;
 		width: 100%;
 		height: 166px;
@@ -469,7 +471,7 @@
 	}
 
 	.indicators__speed-icon {
-		background: url(../img/speed-m.png) no-repeat;
+	
 		width: 38.14px;
 		height: 28.7px;
 	}
@@ -502,7 +504,7 @@
 	}
 
 	.indicators__road-icon {
-		background: url(../img/road-m.png) no-repeat;
+
 		width: 25.29px;
 		height: 41px;
 	}
@@ -539,7 +541,7 @@
 	}
 
 	.test-drive__wheel-icon {
-		background: url(../img/steering-wheel-red.png) no-repeat;
+/*		background: url(../img/steering-wheel-red.png) no-repeat;*/
 	}
 
 	.btn {
@@ -638,6 +640,11 @@
 } 
 
 @media (max-width: 375px) {
+	/*
+	.content__title {
+	margin: 30px 11px 10px 11px;
+}
+*/
 
 	.indicators__acceleration {
 		padding-left: 17px;
@@ -657,6 +664,11 @@
 }
 
 @media (max-width: 320px) {
+
+	.content_right-header {
+		font-size: 65px;
+	}
+
 		
 	.header__indicators {
 		justify-content: flex-end;
