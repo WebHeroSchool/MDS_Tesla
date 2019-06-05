@@ -65,12 +65,22 @@
 	}
 
 	.content_right-header {
-		font-size: 85px;
+		font-size: 83px;
 	}
 
+	.security__i-order {
+    	padding-bottom: 63px;
+	}
 }
 
 @media (max-width: 814px) {
+	.test-drive__wheel-icon path {
+		fill:#E51937;
+	}
+
+	.content_left-wrap {
+		max-width: 100%;
+	}
 
 .content_right-header {
  	font-size: 70px;
@@ -178,6 +188,11 @@
 
 @media (max-width: 768px) {
 
+.content__title {
+	font-size: 22px;
+	margin: 30px 15px 10px 15px;
+}
+
 .security-rating {
 	margin: 0;
 }
@@ -212,15 +227,20 @@
 }
 
 .security__i-order {
-	display: none;
+/*	display: none;*/
 }
 
-.content_left {
+.content_left-wrap {
 	flex-direction: row;
 }
 
+.content_left {
+	flex-direction: column;
+}
+
 .text-wrap {
-	width:370px;
+/*	width:370px;*/
+	width: 50%;
 }
 
 .content__title {
@@ -228,7 +248,8 @@
 }
 
 .content__text {
-    margin: 0 40px 65px 32px;
+ /*   margin: 0 40px 65px 32px;*/
+ 	margin: 0 15px 65px 15px;
 }
 
 .security {
@@ -319,6 +340,22 @@
 }
 
 @media (max-width: 637px) {
+
+.content_left {
+	flex-direction: row;
+	    width: 100%;
+	    max-width: 100%; 
+
+}
+.content_left-wrap {
+	width: 100%;
+	max-width: 100%;
+}
+
+.security__i-order {
+	padding-bottom: 10px;
+}
+
 	.security {
 		min-height: 500px;	
 	}
@@ -410,7 +447,7 @@
 @media (max-width: 475px) {
 
 	.content_right-header {
-		font-size: 75px;
+		font-size: 70px;
 	}
 
 	.header {
@@ -613,6 +650,13 @@
 }
 
 @media (max-width: 474px) {
+	.future__info__top {
+		font-size: 28px;
+	}
+
+	.content__title {
+		font-size: 25px;
+	}
 
 	.advantage__header {
 		height: auto;
@@ -645,6 +689,12 @@
 	margin: 30px 11px 10px 11px;
 }
 */
+	.future__info__top {
+		font-size: 24px;
+	}
+	.content__title {
+		font-size: 23px;
+	}
 
 	.indicators__acceleration {
 		padding-left: 17px;
@@ -652,10 +702,7 @@
 		box-sizing: border-box;
 	}
 
-	.order__button {
-		margin-top: 30px;
-	}
-	
+
 		.test-drive {		
 		margin: 3px 25px 0 0;		
 		color: #E51937;
@@ -679,11 +726,15 @@
 		padding-left: 0;
 	}
 
-
-	
 }
 
 
+@media (max-width: 300px) {
+
+	.content_right-header {
+		font-size: 55px;
+	}
+}
 
 /*
 	
