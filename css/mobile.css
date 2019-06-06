@@ -585,6 +585,7 @@
 		background: #E51937;
 		color: #FFF;
 		padding-bottom: 3px;
+		/*cursor: pointer;*/
 	}
 
 	.order__button {
