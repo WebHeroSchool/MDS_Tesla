@@ -578,7 +578,8 @@ body {
 .security-rating {
   display: flex;
   flex-direction: column;
-  margin: 0 0 85px 42px;
+/*  margin: 0 0 85px 42px;*/
+	padding: 0 15px;
 }
 
 .security-rating__title {
@@ -607,9 +608,10 @@ body {
 }
 
 .rating {
-  margin: 0 0 52px 52px;
+ /* margin: 0 0 52px 52px;*/
   display: flex;
   box-sizing: border-box;
+  padding: 42px 0 0 66px; 
 }
 
 .rating__text {
@@ -644,16 +646,17 @@ body {
 
 
 .security__i-order {
-	margin: auto;
+	margin: auto;/*
 	margin-top: -10px;
 	padding-bottom: 63px;
- /*   width: 100%;*/
+    width: 100%;*/
+
 }
 
 .content__title {
 	font-weight: 600;
     font-size: 30px;
-    margin: 50px 10px 10px 36px;
+ /*   margin: 50px 10px 10px 36px;*/
     line-height: normal;
     text-align: center;
 
@@ -662,7 +665,8 @@ body {
     font-weight: 500;
     font-size: 15px;
     line-height: normal;
-    margin: 0 60px 65px 36px;
+/*    margin: 0 60px 65px 36px;*/
+	padding: 0 25px;
   }
 
   .security__i-icon {
