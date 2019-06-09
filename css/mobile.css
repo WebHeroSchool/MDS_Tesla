@@ -36,20 +36,6 @@
 	.content_right-header {
 		font-size: 100px;
 	}
-
-
-/*	.security {
-    background: url(../img/ModelS.svg) 50% 50%/50% auto no-repeat,
-	 			url(../img/car_frame_group.png) 5% 5%/5% auto no-repeat;
-  }*/
-
-/*	.security {
-    background: url(../img/ModelS.svg) 100% 19%/55% auto no-repeat,
-	 			url(../img/car_frame_group.png) 88.5% 55%/73% auto no-repeat;
-
-
-  }*/
-
 }
 
 
@@ -226,9 +212,6 @@
 	display: none;
 }
 
-.security__i-order {
-/*	display: none;*/
-}
 
 .content_left-wrap {
 	flex-direction: row;
@@ -248,7 +231,7 @@
 }
 
 .content__text {
- /*   margin: 0 40px 65px 32px;*/
+
  	margin: 0 15px 65px 15px;
 }
 
@@ -275,10 +258,10 @@
 		background: url(../img/2013-tesla-model-s-cockpit.png) no-repeat;
 		width: 100%;
 		height: 500.82px;
-	/*	outline: 1px solid red;*/
+
 }
 	.future__info {
-	/*	padding: auto;*/
+
 	    margin-top: 0px;
 	    display: flex;
 	    flex-wrap: wrap;
@@ -287,8 +270,7 @@
 	display: flex;
 	height: auto;
 	height: 350px;
-/*	flex-direction: row;
-    flex-wrap: wrap;*/
+
 }
 
 .future__info_second{
@@ -298,7 +280,7 @@
 
 .select__i-order {
 	    text-align: center;
- /*   width: 100%;*/
+
 }
 
 
@@ -312,7 +294,6 @@
 
 .future__info__top{
 	width: 316px;
-/*	height: 37px;*/
 	left: calc(50% - 316px/2 - 192px);
 	top: 1616.38px;
 	font-weight: 600;
@@ -414,10 +395,7 @@
 		margin-bottom: 115px;
 	}
 
-/*	.test-drive {
-		margin-top: 30px;
-	}
-*/
+
 	.header__indicators {
 		justify-content: center;
 		width: 100%;
@@ -431,10 +409,7 @@
 		margin-right: 0;
 	}
 
-/*	.test-drive {
-		margin-top: 30px;
-	}
-*/
+
 	.advantage__bg-image {
 		height: 338px;
 	}
@@ -577,15 +552,13 @@
 		color: #E51937;
 	}
 
-	.test-drive__wheel-icon {
-/*		background: url(../img/steering-wheel-red.png) no-repeat;*/
-	}
+
 
 	.btn {
 		background: #E51937;
 		color: #FFF;
 		padding-bottom: 3px;
-		/*cursor: pointer;*/
+
 	}
 
 	.order__button {
@@ -679,17 +652,11 @@
 		margin: 3px 25px 0 0;		
 		color: #E51937;
 	}
-/*	.order__button {
-		margin-top: 30px;
-	}*/
+
 } 
 
 @media (max-width: 375px) {
-	/*
-	.content__title {
-	margin: 30px 11px 10px 11px;
-}
-*/
+
 	.future__info__top {
 		font-size: 24px;
 	}
@@ -736,232 +703,3 @@
 		font-size: 55px;
 	}
 }
-
-/*
-	
-}
-
-
-@media (max-width: 1260px) {
-
-	.safety__bg-header{
-		font-size: 150px;
-	}
-
-}
-
-@media (max-width: 1200px) {
-
-	.action-hide {
-		display: none;
-	}
-
-	.presentation__title {
-		font-size: 80px;
-	}
-
-	.presentation__text {
-		font-size: 14px;
-		margin-bottom: 85px;
-	}
-
-}
-
-@media (max-width: 1055px) {
-
-	.safety__bg-header{
-		font-size: 102px;
-	}
-
-}
-
-
-@media (max-width: 995px) {
-
-	.nav-menu {
-		display: none;
-	}
-
-	.presentation__title {
-		font-size: 70px;
-	}
-
-	.presentation__text {
-		font-size: 12px;
-	}
-	
-
-}
-
-@media (max-width: 879px) {
-
-	.advantage__bg {
-		display: flex;
-		flex-direction: column;
-		width: 100%;
-	}
-
-	.advantage__bg-image {
-		background: url(../img/tesla-bg-image.png) bottom center no-repeat;
-		height: 472px;
-		background-size: 100%;
-	}
-
-	.advantage__subtitle {
-		display: none;
-	}
-
-	.block-header {
-		text-align: center;
-		width: 100%;
-	}
-
-	.block-text {
-    	width: 100%;
-		height: 100%;
-		margin: 0;
-	}	
-
-	.sidebar { 
-		width: 100%;
-		height: auto;
-	}
-
-	.advantage__sidebar {
-    	padding: 18px 30px 34px 30px;
-    	margin-top: 0;
-	}
-
-	.advantage__display,
-	.advantage__wireless,
-	.advantage__capacity,
-	.i-order_block {
-		display: none;
-	}
-
-
-
-
-	.main__safety {
-		flex-direction: column;
-	}
-
-	.safety__frame {
-		width: 100%;
-		height: auto;
-	}
-
-	.safety__bg-header {
-		padding-top: 40px;
-		margin: auto;
-	}
-
-	.safety__car-frame {
-		order: 1;
-		margin: 0 auto;
-	}
-
-	.safety__image {
-		margin-top: -73px;
-	}
-
-	.safety__sidebar {
-		order: 2;
-		padding: 18px 30px 34px 30px;
-	}
-
-	.safety__mark,
-	.safety__rating-table,
-	.safety__five-stars {
-		display: none;
-	}
-
-	.safety__WHS-logo {
-		display: none;
-	}
-
-	
-
-
-}
-
-@media (max-width: 797px) {
-	.order__button {
-		margin-top: 30px;
-	}
-
-	.header {
-		margin-left: 2.300%;
-		margin-right: 5.900%;
-	}
-
-	.advantage__bg-image {
-		height: 428px;
-	}
-
-
-}
-
-@media (max-width: 717px) {
-	
-	.advantage__bg-image {
-		height: 382px;
-	}
-}
-
-@media (max-width: 637px) {
-
-	.header__indicators {
-		justify-content: center;
-		width: 100%;
-	}
-
-	.presentation__title {
-		font-size: 60px;
-	}
-
-	.presentation__text {
-		font-size: 11px;
-		margin-bottom: 115px;
-	}
-	
-	.indicators__pwr-reserve {
-		margin-right: 0;
-	}
-
-	.test-drive {
-		margin-top: 30px;
-	}
-
-	.advantage__bg-image {
-		height: 338px;
-	}
-
-}
-
-@media (max-width: 537px) {
-
-	.advantage__bg-image {
-		height: 286px;
-	}
-
-	.safety__bg-header {
-		padding-top: 40px;
-		font-size: 70px;
-	}
-
-
-}
-
-@media (max-width: 437px) {
-
-	.advantage__bg-image {
-		height: 262px;
-	}
-}
-
-*/
-/* mobile 375px */
-/*
-
-*/
